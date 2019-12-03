@@ -1,22 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  background-image: linear-gradient(30deg, #89f7fe 0%,#89f7fe 20%, #66a6ff 100%);
+}
+
+.search-form {
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: rgb(87, 115, 240);
+  border: none;
+  padding: 10px 20px;
   color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
 }
+
+
